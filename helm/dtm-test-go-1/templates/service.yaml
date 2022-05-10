@@ -1,0 +1,10 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: dtm-test-go-1
+spec:
+  selector:
+    app: dtm-test-go-1
+  ports:
+    - port: 80
+      targetPort: 8080
